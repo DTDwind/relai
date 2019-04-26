@@ -11,6 +11,6 @@ body{
 .logo{
     background-image: url("../pic/logo.png");
     background-repeat: no-repeat; 
-    height: 100px;
+    height: 80px;
     /* width: 100px; */
 }

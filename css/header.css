@@ -1,16 +1,33 @@
 body{
     margin: 0px;
+    font-family: sans-serif, "Verdana", "微軟正黑體";
  }
  header{
     border-bottom: 1px solid #cccccc;
+    height: 80px;
  }
 .header_gray{
-    background-color:  rgb(58, 57, 57);
+    background-color:#399403;
     height: 5px;
 }
 .logo{
     background-image: url("../pic/logo.png");
     background-repeat: no-repeat; 
     height: 80px;
-    /* width: 100px; */
+    width: 250px;
+    float: left;
+}
+.menu{
+    float: left;
+    text-align: center;
+    height: 75px;
+    width: 90px;
+    line-height:80px;
+    color: #333;
+}
+
+.menu:hover{
+    color: #000;
+    background-color: #ccf2e0;
+    border-radius:10px;
 }

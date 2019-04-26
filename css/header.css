@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+ }
+ header{
+    border-bottom: 1px solid #cccccc;
+ }
+.header_gray{
+    background-color:  rgb(58, 57, 57);
+    height: 5px;
+}
+.logo{
+    background-image: url("../pic/logo.png");
+    background-repeat: no-repeat; 
+    height: 100px;
+    /* width: 100px; */
+}

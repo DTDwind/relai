@@ -6,6 +6,9 @@ body{
     border-bottom: 1px solid #cccccc;
     height: 80px;
  }
+ a{
+    text-decoration:none;
+ }
 .header_gray{
     background-color:#399403;
     height: 5px;
@@ -30,4 +33,10 @@ body{
     color: #000;
     background-color: #ccf2e0;
     border-radius:10px;
+}
+.lang{
+    float: left;
+    height: 75px;
+    line-height:80px;
+    margin-left:10px;
 }

@@ -3,8 +3,11 @@ body{
     font-family: sans-serif, "Verdana", "微軟正黑體";
  }
  header{
+    position: fixed;
+    top:0px;
     border-bottom: 1px solid #cccccc;
     height: 80px;
+    width: 100%;
  }
  a{
     text-decoration:none;
@@ -33,10 +36,16 @@ body{
     color: #000;
     background-color: #ccf2e0;
     border-radius:10px;
+    text-decoration:none;
 }
 .lang{
+    font-size: 14px;
     float: left;
     height: 75px;
     line-height:80px;
     margin-left:10px;
+}
+.menu_pic{
+    width: 100%;
+    height: 200px;
 }

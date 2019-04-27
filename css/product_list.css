@@ -1,0 +1,28 @@
+
+.contents_list_title{
+    font-size: 1.2em;
+}
+
+.contents_list ul li{
+    font-size: 1.1em;
+    list-style-type:square;
+}
+.contents_list ul li a:hover{
+    color:#177403;
+}
+legend{
+    font-size: 1.2em;
+    color:#177403;
+}
+.left_border{
+    padding-left: 10px;
+    border-left:1px gray dotted;
+
+}
+.left_border a{
+    display: block;
+}
+.left_border a:hover{
+    display: block;
+    color:#177403;
+}

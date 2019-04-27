@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script> <!-- jquery連結 -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- 標頭的css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
     <link rel="stylesheet" href="css/header.css"> <!-- 標頭的css -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="css/footer.css"> 
+    <link rel="stylesheet" href="css/product_list.css"> 
     <title>産品列表</title>
 </head>
 <body>
@@ -29,18 +30,61 @@
     </header>
     <div style="height:85px;width:100%;"></div>
     <img class="menu_pic" src="" />
-    <div class="container-fluid" style="background: #F00;">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm">
-              One of three columns
+            <div class="col-sm-3 contents_list" >
+                <div class="contents_list_title">軟件類別：</div>
+              <ul>
+                <li>
+                    <a href="#1">會計系統</a>
+                </li>
+                <li>
+                    <a href="#2">QQ</a>
+                </li>
+                <li>
+                    <a href="#2">QQ</a>
+                </li>
+                <li>
+                    <a href="#2">QQ</a>
+                </li>
+                <li>
+                    <a href="#2">QQ</a>
+                </li>
+                <li>
+                    <a href="#2">QQ</a>
+                </li>
+                <li>
+                    <a href="#2">QQ</a>
+                </li>
+                <li>
+                    <a href="#2">QQ</a>
+                </li>
+              </ul>
             </div>
-            <div class="col-sm">
-              One of three columns
+
+            <div class="col-sm" >
+                <!-- a product -->
+                <fieldset name="1" class="border rounded border-success p-2">
+                    <legend class="w-auto">會計系統</legend>
+                        <div class="row">
+                            <div class="col-sm">
+                                    這是一個非常簡易易用的會計系統，能讓你根據自己公司的需要自行設定會計科目和帳戶。簡易的日記帳輸入，使你能在很短的時間內學懂如何記錄公司的各項帳項。
+                            </div>
+                            <div class="col-sm" >
+                                <div class="left_border">
+                                    <a href="#">會計系統-總帳版</a>
+                                    <a href="#">會計系統-總帳版</a>
+                                </div>
+                            </div>
+                        </div>
+                </fieldset>
+                <!-- a product END-->
             </div>
-            <div class="col-sm">
-              One of three columns
-            </div>
-          </div>
+            
+        </div>
+        <footer class="row">
+                footer
+        </footer>
     </div>
 </body>
 <script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- jquery連結 -->

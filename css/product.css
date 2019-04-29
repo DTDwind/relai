@@ -1,0 +1,22 @@
+.child_menu{
+    font-size:1.2em;
+    border-bottom:1px #ccc solid;
+    cursor:pointer;
+}
+
+.child_menu:hover a{
+    color:#177403;
+    text-decoration:none;
+    background-color: #ccf2e0;
+}
+.child_menu:hover{
+    background-color: #ccf2e0;
+}
+.little_text{
+    font-size:0.8em ;
+    color: #999;
+}
+.child_menu:hover .little_text{
+    color: #000;
+    
+}

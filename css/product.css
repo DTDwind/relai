@@ -39,3 +39,13 @@ a:hover{
 .displaynone{
     display:none;
 }
+.center_th{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #ccf2e0;
+}
+
+
+th{
+    text-align: center;
+}

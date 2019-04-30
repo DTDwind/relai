@@ -29,3 +29,13 @@ legend{
 .prodoct_pic{
     text-align:center;
 }
+a:hover{
+    color:#177403;
+    text-decoration:none;
+}
+#price ul {
+    list-style-type:square;
+}
+.displaynone{
+    display:none;
+}

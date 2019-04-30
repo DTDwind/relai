@@ -193,64 +193,82 @@
                                     <BR><BR>
                                     每個客戶都有一個單獨密碼，這密碼是由客戶的登記名稱建立的，所以付款前，請先填寫購買表格。
                                     <BR><BR>
-                                    <table class="table table-hover">
-                                        <thead>
-                                                <tr>
-                                                    <th class="center_th"> </th>
-                                                    <th class="center_th">購買表格</th>
-                                                    <th class="center_th"> </th>
-                                                    <th class="center_th"> </th>
-                                                    <th class="center_th"> </th>
-                                                </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th  scope="row">系統名稱:</th>
-                                                <td colspan="6" >
-                                                    <select name="productName" class="custom-select" id="productName">
-                                                            <option value="請選擇程式" selected="selected">請選擇程式</option>
-                                                            <option value="DBVCL會計系統 (總帳版)" title="DBVCL">DBVCL會計系統 (總帳版)</option>
-                                                    </select>    
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">登記名稱:</th>
-                                                <td colspan="4"><input type="text" class="form-control" id="company_name" placeholder="ex:如來科技有限公司"></td>                             
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Email:</th>
-                                                <td colspan="4" ><input type="text" class="form-control" id="email" placeholder="ex:email@example.com"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">聯絡人姓名:</th>
-                                                <td colspan="4" ><input type="text" class="form-control" id="user_name" placeholder="ex:王大明"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">聯絡電話:</th>
-                                                <td colspan="4" ><input type="text" class="form-control" id="phone" placeholder="ex:04-22020285"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">地址:</th>
-                                                <td colspan="4" ><input type="text" class="form-control" id="address" placeholder="ex:台中市北區中清路一段 79 號 6 樓"></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">支付貨幣:</th>
-                                                <td colspan="4" >
-                                                    <select name="productName" class="custom-select" id="productName">
-                                                        <option value="台幣" title="DBVCL">台幣</option>
-                                                        <option value="美元" title="DBVCL">美元</option>
-                                                        <option value="人民幣" title="DBVCL">人民幣</option>
-                                                        <option value="港幣" title="DBVCL">港幣</option>
-                                                    </select>    
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">備註:</th>
-                                                <td colspan="4"><textarea class="form-control" id="Textarea" rows="3"></textarea></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <div class="container">
+                                        <div class="form_title">購買表格</div>
+                                        <div class="row little_table">
+                                            <div class="col-sm-2 center">
+                                                    系統名稱
+                                            </div>
+                                            <div class="col-sm">
+                                                <select name="productName" class="custom-select" id="productName">
+                                                        <option value="請選擇程式" selected="selected">請選擇程式</option>
+                                                        <option value="DBVCL會計系統 (總帳版)" title="DBVCL">DBVCL會計系統 (總帳版)</option>
+                                                </select> 
+                                            </div>
+                                        </div>
+                                        <div class="row little_table">
+                                                <div class="col-sm-2 center">
+                                                        登記名稱
+                                                </div>
+                                                <div class="col-sm">
+                                                    <input type="text" class="form-control" id="company_name" placeholder="ex:如來科技有限公司">
+                                                </div>
+                                        </div>
+                                        <div class="row little_table">
+                                                <div class="col-sm-2 center">
+                                                        Email
+                                                </div>
+                                                <div class="col-sm">
+                                                    <input type="text" class="form-control" id="email" placeholder="ex:email@example.com">
+                                                </div>
+                                        </div>
+                                        <div class="row little_table">
+                                                <div class="col-sm-2 center">
+                                                        聯絡人姓名
+                                                </div>
+                                                <div class="col-sm">
+                                                    <input type="text" class="form-control" id="user_name" placeholder="ex:王大明">
+                                                </div>
+                                        </div>
+                                        <div class="row little_table">
+                                                <div class="col-sm-2 center">
+                                                        聯絡電話
+                                                </div>
+                                                <div class="col-sm">
+                                                    <input type="text" class="form-control" id="phone" placeholder="ex:04-22020285">
+                                                </div>
+                                        </div>
+                                        <div class="row little_table">
+                                                <div class="col-sm-2 center">
+                                                        地址
+                                                </div>
+                                                <div class="col-sm">
+                                                    <input type="text" class="form-control" id="address" placeholder="ex:台中市北區中清路一段 79 號 6 樓">
+                                                </div>
+                                        </div>
+                                        <div class="row little_table">
+                                                <div class="col-sm-2 center">
+                                                        支付貨幣
+                                                </div>
+                                                <div class="col-sm">
+                                                        <select name="productName" class="custom-select" id="productName">
+                                                            <option value="台幣" title="DBVCL">台幣</option>
+                                                            <option value="美元" title="DBVCL">美元</option>
+                                                            <option value="人民幣" title="DBVCL">人民幣</option>
+                                                            <option value="港幣" title="DBVCL">港幣</option>
+                                                        </select>    
+                                                </div>
+                                        </div>
+                                        <div class="row little_table">
+                                            <div class="col-sm-2 center">
+                                                    備註
+                                            </div>
+                                            <div class="col-sm">
+                                                <textarea class="form-control" id="Textarea" rows="3"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
                             </div>
                         </div>
                 </fieldset>

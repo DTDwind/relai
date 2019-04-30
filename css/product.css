@@ -39,13 +39,27 @@ a:hover{
 .displaynone{
     display:none;
 }
-.center_th{
+
+.form_title{
+    margin-top: 10px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    color:#177403;
     background-color: #ccf2e0;
+    width:100%;
 }
 
 
-th{
+
+.center{
     text-align: center;
+}
+
+.little_table{
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px #CCC solid;
+}
+.little_table:hover{
+    background-color: #ccf2e0;
 }
